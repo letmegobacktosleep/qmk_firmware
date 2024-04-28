@@ -1,10 +1,10 @@
 {
   "manufacturer": "MiniPad",
-  "keyboard_name": "minipad/8k",
+  "keyboard_name": "letmegobacktosleep/8k",
   "maintainer": "RephlexZero",
   "processor": "STM32F072",
   "bootloader": "stm32-dfu",
-  "url": "https://minipad.minii.moe/",
+  "url": "",
   "features": {
     "bootmagic": true,
     "mousekey": false,

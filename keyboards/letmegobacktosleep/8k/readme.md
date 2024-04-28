@@ -1,6 +1,6 @@
-It compiles, but untested. 
+It compiles, but untested.
 
-Based off minipad 3k fork by [Jake Stewart](https://github.com/RephlexZero)
+Based off minipad 3k by [Jake Stewart](https://github.com/RephlexZero)
 
 * Keyboard Maintainer: [letmegobacktosleep](https://github.com/letmegobacktosleep)
 * Hardware Supported: *Hall Effect Keypad running on STM32F072, with 16MHz Crystal*
