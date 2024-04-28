@@ -3,7 +3,7 @@ It compiles, but untested.
 Based off minipad 3k by [Jake Stewart](https://github.com/RephlexZero)
 
 * Keyboard Maintainer: [letmegobacktosleep](https://github.com/letmegobacktosleep)
-* Hardware Supported: *Hall Effect Keypad running on STM32F072, with 16MHz Crystal*
+* Hardware Supported: *Hall Effect Keypad running on STM32F072, with 8MHz Crystal*
 * Hardware Availability: *https://github.com/RephlexZero/MoonPad* erm no it isn't there that one is rp2040 baseed
 
 Make example for this keyboard (after setting up your build environment):
