@@ -19,8 +19,8 @@
   },
   "usb": {
     "device_version": "1.0.0",
-    "pid": "0x0727",
-    "vid": "0x0727"
+    "vid": "0xFEED",
+    "pid": "0x2727"
   },
   "matrix_pins": {
     "direct": [
