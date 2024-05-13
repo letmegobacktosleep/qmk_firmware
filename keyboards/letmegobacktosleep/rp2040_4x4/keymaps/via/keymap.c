@@ -20,25 +20,34 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [0] = LAYOUT_ortho_4x4(
-    KC_KP_PLUS,   KC_P7,   KC_P8,   KC_P9,
-    KC_KP_MINUS,  KC_P4,   KC_P5,   KC_P6,
-    KC_KP_EQUAL,  KC_P1,   KC_P2,   KC_P3,
-    MO(1),        KC_P0,   KC_PDOT, KC_ENTER),
-
+    KC_KP_PLUS,     KC_P7,      KC_P8,      KC_P9,
+    KC_KP_MINUS,    KC_P4,      KC_P5,      KC_P6,
+    KC_KP_EQUAL,    KC_P1,      KC_P2,      KC_P3,
+    MO(1),          KC_P0,      KC_PDOT,    KC_KP_ENTER),
 
   [1] = LAYOUT_ortho_4x4(
-    KC_KP_ASTERISK, KC_DEL,     KC_UP,      KC_BACKSPACE,
+    KC_KP_ASTERISK, KC_DELETE,  KC_UP,      KC_BACKSPACE,
     KC_KP_SLASH,    KC_LEFT,    KC_DOWN,    KC_RIGHT,
     LCTL(KC_A),     LCTL(KC_X), LCTL(KC_C), LCTL(KC_V),
-    KC_TRNS,        LCTL(KC_Z), LCTL(KC_Y), KC_LEFT_SHIFT),
-
+    _______,        MO(4),      LCTL(KC_Z), LCTL(KC_Y)),
 
   [2] = LAYOUT_ortho_4x4(
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
-  )
+    KC_KP_PLUS,     KC_P7,      KC_P8,      KC_P9,
+    KC_KP_MINUS,    KC_P4,      KC_P5,      KC_P6,
+    KC_KP_EQUAL,    KC_P1,      KC_P2,      KC_P3,
+    MO(3),          KC_P0,      KC_PDOT,    KC_KP_ENTER),
+
+  [3] = LAYOUT_ortho_4x4(
+    KC_KP_ASTERISK, KC_DELETE,  KC_UP,      KC_BACKSPACE,
+    KC_KP_SLASH,    KC_LEFT,    KC_DOWN,    KC_RIGHT,
+    LCMD(KC_A),     LCMD(KC_X), LCMD(KC_C), LCMD(KC_V),
+    _______,        MO(4),      LCMD(KC_Z), LCMD(KC_Y)),
+
+  [4] = LAYOUT_ortho_4x4(
+    KC_CIRC,        KC_LPRN,    KC_PGUP,    KC_RPRN,
+    KC_PERC,        KC_HOME,    KC_PGDN,    KC_END,
+    KC_NUM,         KC_INSERT,  XXXXXXX,    XXXXXXX,
+    _______,        _______,     DF(0),      DF(2))
 
 };
 
