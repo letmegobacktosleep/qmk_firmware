@@ -20,7 +20,7 @@
     },
     "diode_direction": "COL2ROW",
     "dynamic_keymap": {
-        "layer_count": 7
+        "layer_count": 5
     },
     "matrix_pins": {
         "rows": ["GP3", "GP4", "GP28", "GP29"],
